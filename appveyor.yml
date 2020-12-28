@@ -8,6 +8,9 @@ before_build:
 build:
   project: src\DataGate\DataGate.sln
   verbosity: minimal
+  
+test_script:
+- run-tests.cmd
 
 environment:
   APPVEYOR_RDP_PASSWORD: DataGate88!
